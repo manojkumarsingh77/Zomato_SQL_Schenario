@@ -1,0 +1,45 @@
+Scenario: Zomato, a popular food delivery platform, wants to retrieve the details of all restaurants that serve Italian cuisine and are located in a specific city. They also want to display the average rating of each restaurant.
+
+Database Script: To solve this scenario, we need a database schema with tables for restaurants and their ratings. Here's an example script to create the necessary tables:
+
+Scenario 1: You want to find the top 5 cities with the highest number of restaurants.
+
+
+Scenario 2: You need to retrieve the details of restaurants that have an average rating higher than 4.5.
+
+Scenario 3: You want to find the cities with at least one restaurant serving both Italian and Mexican cuisines.
+
+Scenario 4: You need to retrieve the restaurant details along with the highest and lowest ratings for each restaurant.
+
+Scenario 5: You want to find the cities where the average rating of restaurants is higher than the overall average rating.
+
+Scenario 6: You need to retrieve the top-rated restaurant in each city.
+
+Scenario 7: You want to find the restaurants that have received ratings from all customers.
+
+Scenario 8: You need to retrieve the restaurant details along with the percentage of ratings that are above 4.0.
+
+Scenario 9: You want to find the customers who have rated all the restaurants in a specific city.
+
+Scenario 10: You need to retrieve the restaurant details along with the number of ratings received in each month of a specific year.
+
+Scenario 11: You want to find the customers who have given the highest number of ratings.
+
+Scenario 12: You need to retrieve the restaurant details along with the number of customers who have given ratings.
+
+Scenario 13: You want to find the customers who have given ratings to restaurants in more than one city.
+
+Scenario 14: You need to retrieve the restaurant details along with the number of ratings in each rating range (1-2, 2-3, 3-4, 4-5).
+
+Scenario 15: You want to find the restaurants that have a higher average rating than the average rating of restaurants in their respective cities.
+
+Scenario 16: You need to retrieve the restaurant details along with the number of ratings received on weekdays and weekends.
+
+Scenario 17: You want to find the customers who have given ratings to all the restaurants in a specific city.
+
+Scenario 18: You need to retrieve the top-rated restaurants for each cuisine.
+
+Scenario 19: You want to find the customers who have rated restaurants in all available cuisines.
+Solution:
+
+Scenario 20: You need to retrieve the restaurant details along with the number of ratings received in each quarter of a specific year.
