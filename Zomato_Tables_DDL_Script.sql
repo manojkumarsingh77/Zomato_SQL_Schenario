@@ -18,6 +18,11 @@ CREATE TABLE restaurants (
     FOREIGN KEY (cuisine_id) REFERENCES cuisines(cuisine_id)
 );
 
+CREATE TABLE customers (
+    customer_id INT PRIMARY KEY,
+    customer_name VARCHAR(100)
+);
+
 CREATE TABLE ratings (
     rating_id INT PRIMARY KEY,
     restaurant_id INT,
@@ -26,9 +31,4 @@ CREATE TABLE ratings (
     rating_date DATE,
     FOREIGN KEY (restaurant_id) REFERENCES restaurants(restaurant_id),
     FOREIGN KEY (customer_id) REFERENCES customers(customer_id)
-);
-
-CREATE TABLE customers (
-    customer_id INT PRIMARY KEY,
-    customer_name VARCHAR(100)
 );
